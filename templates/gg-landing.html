@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+	<title>P5 Super-Cool</title>
+</head>
+<body>
+	<style> 
+    body { 
+    padding: 0%; 
+    margin: 0%; 
+    } 
+  
+    .geog { 
+    padding: 0px; 
+    text-align: center; 
+    } 
+  
+    section { 
+    width: 100%; 
+    min-height: 300px; 
+    } 
+  
+    .pattern { 
+    position: absolute;
+    background-color: white; 
+    background-image: linear-gradient(315deg,#27557B 10%, #3C613E 74%);
+
+    } 
+  
+    .pattern:before { 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 250px; 
+    background: url(https://media.geeksforgeeks.org/wp-content/uploads/20200326181026/wave3.png); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    } 
+
+	.TransText {
+	color: black;
+	font-size:100px;
+	position:relative;
+	opacity:.5;
+	letter-spacing: 5px;
+	top: 175px;
+	}
+	.TransText:hover {
+	opacity:1;
+	transition-duration: 0.5s;
+	}
+    </style> 
+
+   	<section class="pattern"> 
+        <div class="geog"> 
+            <h1><center><a style="font-family: 'Major Mono Display',Regular ;text-decoration: none;" href="home" class="TransText">geo-guessr</a></center></h1>
+            <center><a style="font-family: 'Major Mono Display',Regular ;text-decoration: none; font-size: 20px;" href="p5" class="TransText">p5 super-cool</a></center>
+        </div> 
+    </section> 
+</body>
+</html>
