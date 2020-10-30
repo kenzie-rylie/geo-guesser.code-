@@ -2,49 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    <link rel="stylesheet" href="/static/style.css/">
     <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>P5 Super-Cool</title>
 </head>
 <body style="font-family:'Major Mono Display',Regular">
-<style> 
-
-body { 
- padding: 0%; 
- margin: 0%; 
-} 
-  
-.geog {     
- text-align: center; 
-} 
-  
-section { 
- width: 100%; 
- min-height: 300px; 
-} 
-  
-.pattern { 
- position: absolute; 
- background-color: white; 
- background-image: linear-gradient(315deg,#27557B 10%, #3C613E 74%);
-} 
-  
-.pattern:before { 
- content: ""; 
- position: absolute; 
- bottom: 0; 
- left: 0; 
- width: 100%; 
- height: 250px; 
- background: url(https://media.geeksforgeeks.org/wp-content/uploads/20200326181026/wave3.png); 
- background-size: cover; 
- background-repeat: no-repeat; 
-} 
-</style>
-    <section class="pattern"> 
-        <div class="geog"> </div> 
-    </section> 
+<video class="video-bg" loop muted autoplay >
+    <source  src="/static/Globe.mp4" type="video/mp4" >
+</video>
 <div class="topnav" style="text-decoration: none">
     <b><a style="text-decoration: none" href="home">home</a>
     <a style="text-decoration: none" href="geo">geo guessr</a>
