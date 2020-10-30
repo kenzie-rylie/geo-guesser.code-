@@ -1,16 +1,16 @@
 # Welcome to geo-guesser!
 
-This is a website where the user can play fun geological guessing games and learn about countries. Click the history tab to learn about fasinating historical facts about each country. Also click the covid cases tab to learn about the live covid numbers in each country. Come and play! 
+This is a website where the user can play fun geological guessing games and learn about countries. Click the history tab to learn about fascinating historical facts about each country. Also click the covid cases tab to learn about the live covid numbers in each country. Come and play!
 
 ## How to run the site
 
-Start by clicking the geo-guesser tab and running the game. When guessing the country click on the corresponding number to the image. 
+Start by clicking the geo-guesser tab and running the game. When guessing the country click on the corresponding number to the image.
 
-EX. 
+EX.
 
 (Imagine of Greece)
 
-Choices 
+Choices
 
 1. Iceland
 
@@ -18,12 +18,12 @@ Choices
 
 3. Greece
 
-4. Wakanda 
+4. Wakanda
 
-Click on Greece because it is the corresponding number to the image. Another fun activity this webiste provides is historical facts about each country on the geo-guesser game. Only correct answers will provide historical facts. The thrid option is live covid 19 cases tracker. Simply click on the covid cases tab to begin your learning on covid per country. If you don't know how to click or know how to click on corresponding numbers please return to kindergarden and learn how to properly use a computer. 
+Click on Greece because it is the corresponding number to the image. Another fun activity this website provides is historical facts about each country on the geo-guesser game. Only correct answers will provide historical facts. The third option is live covid-19 cases tracker. Simply click on the covid cases tab to begin your learning on covid per country.
 
 
-## File Descriptions 
+## File Descriptions
 
 ### General Code Files
 
