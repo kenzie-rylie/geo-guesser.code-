@@ -1,16 +1,16 @@
 # Welcome to geo-guesser!
 
-This is a website where the user can play fun geological guessing games and learn about countries. Click the history tab to learn about fascinating historical facts about each country. Also click the covid cases tab to learn about the live covid numbers in each country. Come and play!
+This is a website where the user can play fun geological guessing games and learn about countries. Click the history tab to learn about fasinating historical facts about each country. Also click the covid cases tab to learn about the live covid numbers in each country. Come and play! 
 
 ## How to run the site
 
-Start by clicking the geo-guesser tab and running the game. When guessing the country click on the corresponding number to the image.
+Start by clicking the geo-guesser tab and running the game. When guessing the country click on the corresponding number to the image. 
 
-EX.
+EX. 
 
 (Imagine of Greece)
 
-Choices
+Choices 
 
 1. Iceland
 
@@ -18,21 +18,71 @@ Choices
 
 3. Greece
 
-4. Wakanda
+4. Wakanda 
 
-Click on Greece because it is the corresponding number to the image. Another fun activity this website provides is historical facts about each country on the geo-guesser game. Only correct answers will provide historical facts. The third option is live covid-19 cases tracker. Simply click on the covid cases tab to begin your learning on covid per country.
+Click on Greece because it is the corresponding number to the image. Another fun activity this webiste provides is historical facts about each country on the geo-guesser game. Only correct answers will provide historical facts. The thrid option is live covid 19 cases tracker. Simply click on the covid cases tab to begin your learning on covid per country. If you find any trouble working the website try reloading your computer or the website. 
+
+## Goals
+
+### James
+
+Learn to use jinja to incorporate python into HTML.
+
+Proof of learning: 
+
+### Kenzie
+
+Learn how to incorporate jinja. Finish the front end of the website(html and css). Speak up more and converse more with team. Ask more questions.
+
+Proof of learning: All files except gg-history.html & gg-covid.html
+
+### Lucas 
+
+Complete and upload a minimum of one country to the history tab. Speak up and help the team more. Complete the README.md by myself. Stay late and work after hours on our project. 
+
+Proof of learning: geo-guesser.code- / templates / gg-history.html
+
+### Sam
+
+Add additional formatting to website and learn css. 
+
+Proof of learning: All files except gg-history.html & gg-covid.html
+
+### Kira
+
+Make an interactable interface on the website. Create the live covid cases tab for each country. 
+
+Proof of learning: gg-covid.html
 
 
-## File Descriptions
+## File Descriptions 
 
-### General Code Files
+### Python Code Files
 
-site.html - Website contents and format in HTML
+main.py - Importing flask to our website
 
-style.css - Styling and design for the interface in CSS
+env - The flask module added to our website
 
-### Non-code Files
+.idea - Installion of virtual flask environment
+
+### HTML Code Files
+
+templates / gg-covid.html - Live covid cases per country
+
+templates / gg-geo.html - Geo-Guesser game 
+
+templates / gg-history.html - Historical facts for each country 
+
+templates / gg-home.html - Homepage for the website
+
+templates / gg-landing.html - Video background for the home screen
+
+templates / gg-p5.html - Nav bar for each tab 
+
+### CSS Code Files 
+
+static / style.css - Styling for each website tab
+
+### Non-Code Files
 
 README.md - Creates an easy overview of the website
-
-Other photos for site decoration
