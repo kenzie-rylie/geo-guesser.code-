@@ -1,14 +1,14 @@
-body { 
- padding: 0%; 
- margin: 0%; 
+body {
+ padding: 0%;
+ margin: 0%;
 }
-  
-section { 
- width: 100%; 
- min-height: 300px; 
+
+section {
+ width: 100%;
+ min-height: 300px;
  z-index: 1
 
-} 
+}
 
 .TransText {
  color: #055F0A;
@@ -28,7 +28,7 @@ body {margin:0;}
 
 .topnav {
   overflow: hidden;
-  top: -9px;
+  top: -3px;
   background-color: #866223 ;
   z-index: 5;
   position: relative;
@@ -63,14 +63,14 @@ body {margin:0;}
 
 .navheader {
   float: left;
-  color: #3C613E;
+  color: white;
   text-decoration: none;
-  font-size: 22px;
+  font-size: 35px;
   font-family: 'Major Mono Display',Regular;
   letter-spacing:5px;
   position:absolute;
-  left:20px;
-  top:-15px;
+  left:30px;
+  top:-34px;
   z-index: 5;
 
 }
@@ -96,6 +96,7 @@ body {margin:0;}
    justify-content: center;
 }
 
-
-
-
+.bodytext{
+  margin-left: 100px;
+  margin-right: 100px;
+}
