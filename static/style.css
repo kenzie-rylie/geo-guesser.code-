@@ -2,6 +2,12 @@ body {
  padding: 0%; 
  margin: 0%; 
 }
+
+a{
+ text-decoration: none;
+ color: inherit;
+ all: unset;
+}
   
 section { 
  width: 100%; 
@@ -11,7 +17,7 @@ section {
 } 
 
 .TransText {
- color: #055F0A;
+ color: #09A23A;
  font-size:100px;
  position: fixed;
  opacity:.5;
@@ -21,7 +27,7 @@ section {
 
 .TransText:hover {
  opacity:1;
- transition-duration: 0.8s;
+ transition-duration: 0.4s;
 }
 
 body {margin:0;}
@@ -29,7 +35,7 @@ body {margin:0;}
 .topnav {
   overflow: hidden;
   top: -9px;
-  background-color: #866223 ;
+  background-color: #6D7173 ;
   z-index: 5;
   position: relative;
 }
@@ -55,7 +61,7 @@ body {margin:0;}
 }
 
 .topnav a.active {
-  background-color: #3E5276;
+  background-color: #97BD93;
   color: white;
   z-index: 5;
 
