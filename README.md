@@ -40,13 +40,13 @@ Proof of learning: All files except gg-history.html & gg-covid.html
 
 Complete and upload a minimum of one country to the history tab. Speak up and help the team more. Complete the README.md by myself. Stay late and work after hours on our project. 
 
-Proof of learning: geo-guesser.code- / templates / gg-history.html
+Proof of learning: geo-guesser.code- / templates / gg-history.html & README.md
 
 ### Sam
 
 Add additional formatting to website and learn css. 
 
-Proof of learning: All files except gg-history.html & gg-covid.html
+Proof of learning: All files except gg-covid.html
 
 ### Kira
 
