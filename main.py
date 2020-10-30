@@ -1,5 +1,5 @@
 from flask import Flask, redirect, url_for, render_template
-
+import Data
 app = Flask(__name__)
 
 @app.route("/landing")
@@ -17,11 +17,6 @@ def home():
 def covid():
     return render_template("gg-covid.html")
 
-@app.route("/geo")
-@app.route("/")
-def geo():
-    return render_template("gg-geo.html")
-
 @app.route("/p5")
 @app.route("/")
 def p5():
@@ -31,6 +26,10 @@ def p5():
 @app.route("/")
 def history():
     return render_template("gg-history.html")
+
+@app.route("/geoguesser")
+def geoguesser():
+    return render_template("geoguesser.html", data=Data.inputdata1(), data1=Data.inputdata2(), data2=Data.picran())
 
 
 
