@@ -1,40 +1,45 @@
-body { 
- padding: 0%; 
- margin: 0%; 
-} 
-  
-.geog { 
- padding: 200px; 
+body {
+ font-family:'Major Mono Display',Regular;
+ padding: 0%;
+ margin: 0%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.geog {
+ padding: 200px;
  text-align: center;
  z-index: 1
-} 
-  
-section { 
- width: 100%; 
- min-height: 300px; 
+}
+
+section {
+ width: 100%;
+ min-height: 300px;
  z-index: 1
 
-} 
-  
-.pattern { 
- position: relative; 
- background-color: white; 
- background-image: #688069; 
+}
 
-} 
-  
-.pattern:before { 
- content: ""; 
- position: absolute; 
- bottom: 0; 
- left: 0; 
- width: 100%; 
- height: 250px; 
- background: url(https://media.geeksforgeeks.org/wp-content/uploads/20200326181026/wave3.png); 
- background-size: cover; 
- background-repeat: no-repeat; 
+.pattern {
+ position: relative;
+ background-color: white;
+ background-image: #688069;
 
-} 
+}
+
+.pattern:before {
+ content: "";
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ width: 100%;
+ height: 250px;
+ background: url(https://media.geeksforgeeks.org/wp-content/uploads/20200326181026/wave3.png);
+ background-size: cover;
+ background-repeat: no-repeat;
+
+}
 
 .TransText {
  color: black;
@@ -49,12 +54,18 @@ section {
  transition-duration: 0.5s;
 }
 
-body {margin:0;}
+body {
+  margin:0;
+}
+
+.bodytext{
+  margin: 50px;
+}
 
 .topnav {
   overflow: hidden;
   top: -9px;
-  background-color: black ;
+  background-color: black;
   z-index: 5;
   position: relative;
 }
