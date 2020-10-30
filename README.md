@@ -40,7 +40,7 @@ Proof of learning: All files except gg-history.html & gg-covid.html
 
 Complete and upload a minimum of one country to the history tab. Speak up and help the team more. Complete the README.md by myself. Stay late and work after hours on our project. 
 
-Proof of learning: geo-guesser.code- / templates / gg-history.html & README.md
+Proof of learning: geo-guesser.code- / templates / gg-history.html, README.md, & Greece.html
 
 ### Sam
 
@@ -84,6 +84,8 @@ templates / gg-landing.html - Video background for the home screen
 templates / gg-p5.html - Nav bar for each tab 
 
 templates / base.html - Imported to set equal to jinja variables
+
+Greece.html - Imported code to make the Greece part of the history tab
 
 ### CSS Code Files 
 
