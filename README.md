@@ -61,9 +61,13 @@ Proof of learning: gg-covid.html
 
 main.py - Importing flask to our website
 
+Data.py - James' jinja playground 
+
 env - The flask module added to our website
 
 .idea - Installion of virtual flask environment
+
+Geoguesser.py - An attempt at to set a jinja variable to a input using phyton (unsuccessful)
 
 ### HTML Code Files
 
@@ -78,6 +82,8 @@ templates / gg-home.html - Homepage for the website
 templates / gg-landing.html - Video background for the home screen
 
 templates / gg-p5.html - Nav bar for each tab 
+
+templates / base.html - Imported to set equal to jinja variables
 
 ### CSS Code Files 
 
