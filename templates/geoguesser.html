@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--Setting jinja variables -->
+<!-- -->
+{% set testvar = data["test1"] %}
+{% set testvar1 = data1["test2"] %}
+{% set testvar2 = data2["picture"] %}
+<html lang="en">
+
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Geoguesser</title>
+    <link rel="stylesheet" href="/static/style.css/">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+    <body>
+    <div class="topnav">
+        <b><a href="home">home</a>
+            <a href="history">history</a>
+            <a href="covid">covid cases</a>
+            <a href="p5">p5 super-cool</a></b>
+        <a class="active" href="geoguesser">Geoguesser</a></b>
+    </div>
+    {{testvar}} <!-- Testing if varibles work-->
+    {{testvar1}}<!-- Testing if varibles work-->
+    {{testvar2}}<!-- Testing if varibles work-->
+    {% if testvar == data["test2"]%} <!-- If statement test *it worked*-->
+    iftest
+    {% endif %}
+
+    Geo-Guess!  :
+    <p>Continent</p><input id="myInput" type="text" name="Continent" value="something" />
+
+    <!--Here, I spend around 2 hours trying to set a jinja variable to a user input and then checking it via an if statement and returning some value if the if was satisfied -->
+    <!--I then gave up as it was around 1am by this time and tried using java along with jinja but was still unsuccessful-->
+    <script>
+        var test = document.getElementById("myInput").value ;
+        {% set test5 = test %}
+
+    </script>
+    {{test5}}
+    <form>
+        <p>Country</p> <input type="text" name="Country">
+    </form>
+
+    <form>
+        <p>City</p><input type="text" name="City">
+    </form>
+
+
+    <p> </p>
+
+    <!--How I get the random image each time -->
+    <img src={{testvar2}} height="500" width="1000" alt="forest picture">
+
+
+    </body>
+</html>
