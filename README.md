@@ -28,13 +28,13 @@ Click on Greece because it is the corresponding number to the image. Another fun
 
 Learn to use jinja to incorporate python into HTML.
 
-Proof of learning: 
+Proof of learning: Data.py, main.py (route to geoguesser.html and import Data), geoguesser.html
 
 ### Kenzie
 
 Learn how to incorporate jinja. Finish the front end of the website(html and css). Speak up more and converse more with team. Ask more questions.
 
-Proof of learning: All files except gg-history.html & gg-covid.html
+Proof of learning: All files except gg-history.html & gg-covid.html & Data.py & geoguesser.html
 
 ### Lucas 
 
