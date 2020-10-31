@@ -52,7 +52,7 @@ Proof of learning: All files except gg-covid.html
 
 Make an interactable interface on the website. Create the live covid cases tab for each country. 
 
-Proof of learning: gg-covid.html
+Proof of learning: mapclickproject.html, covidscraper.py
 
 
 ## File Descriptions 
@@ -68,6 +68,8 @@ env - The flask module added to our website
 .idea - Installion of virtual flask environment
 
 Geoguesser.py - An attempt at to set a jinja variable to a input using phyton (unsuccessful)
+
+covidscraper.py - Experimentation with webscraping (work in progress)
 
 ### HTML Code Files
 
