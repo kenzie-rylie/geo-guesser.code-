@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Covid Cases Map</title>
+</head>
+
+<body>
+Current covid cases: [put big numbers here or something]
+
+</body>
+<!-- I experimented with image mapping here. This way i can make a clickable map which shows covid cases in specific regions -->
+<img src="mappoints2.PNG" alt="map" usemap="#map" width="1463" height="598">
+<map name="map">
+    <area shape="circle" coords="525,462,9" onclick="functBrazil()">
+    <area shape="circle" coords="623,116,7" onclick="functIceland()">
+    <area shape="circle" coords="749,149,9" onclick="functDenmark()">
+    <area shape="circle" coords="1257,225,8" onclick="functJapan()">
+    <area shape="circle" coords="744,310,9"  onclick="functNiger()">
+    <area shape="circle" coords="1014,257,10" onclick="functIndia()">
+
+    </map>
+
+<body>
+<p>Click the red dots to learn about the current amount of COVID-19 cases in the area.</p>
+
+<div id="covidInfo">Information will show up here.</div>
+</body>
+
+<!-- Here is where the covid information will be shown. I need to extract stuff from csv files  -->
+<script>
+function functBrazil() {
+  var x = document.getElementById("covidInfo");
+  x.innerHTML = "Brazil"
+}
+
+function functIceland(){
+   var x = document.getElementById("covidInfo");
+   x.innerHTML = "Iceland"
+}
+
+function functJapan(){
+   var x = document.getElementById("covidInfo");
+   x.innerHTML = "Japan"
+}
+
+function functDenmark(){
+   var x = document.getElementById("covidInfo");
+   x.innerHTML = "Denmark"
+}
+
+function functNiger(){
+   var x = document.getElementById("covidInfo");
+   x.innerHTML = "Niger"
+}
+
+function functIndia(){
+   var x = document.getElementById("covidInfo");
+   x.innerHTML = "India"
+}
+
+
+</script>
+</html>
