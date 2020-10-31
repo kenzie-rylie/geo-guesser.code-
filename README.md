@@ -50,9 +50,10 @@ Proof of learning: All files except gg-covid.html
 
 ### Kira
 
-Make an interactable interface on the website. Create the live covid cases tab for each country. 
+Make an interactable interface on the website. Create the live covid cases tab for each country.
+Note: I accidentally added my entire project folder to the repository, which is why it is in its own folder.
 
-Proof of learning: mapclickproject.html, covidscraper.py
+Proof of learning: mapclickproject / covidmap.html, covidscraper.py
 
 
 ## File Descriptions 
