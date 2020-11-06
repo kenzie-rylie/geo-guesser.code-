@@ -16,17 +16,17 @@ def picran(): # /static/ + random number + .jpg so it would call a random jpg fi
     picture = int(randrange(6))
     picture2 = "/static/" + str(picture) + ".jpg"
     if picture == 1:
-        repel1 = "https://picture1website1.jhunt11111.repl.run"
+        repel1 = "https://repl.it/@jhunt11111/picture1website1?lite=true"
     elif picture == 5:
-        repel1 = "https://picture5website1.jhunt11111.repl.run"
+        repel1 = "https://repl.it/@jhunt11111/picture5website1?lite=true"
     elif picture == 3:
-        repel1 = "https://picture3website1.jhunt11111.repl.run"
+        repel1 = "https://repl.it/@jhunt11111/picture3website1?lite=true"
     elif picture == 0:
-        repel1 = "https://picture0website1.jhunt11111.repl.run"
+        repel1 = "https://repl.it/@jhunt11111/picture0website1?lite=true"
     elif picture == 2:
-        repel1 = "https://picture2website1.jhunt11111.repl.run"
+        repel1 = "https://repl.it/@jhunt11111/picture2website1?lite=true"
     elif picture == 4:
-        repel1 = "https://picture4website1.jhunt11111.repl.run"
+        repel1 = "https://repl.it/@jhunt11111/picture4website1?lite=true"
     else:
         repel1 = str(picture)
     dictionary2 = {"picture": picture2, "repel1": repel1}
