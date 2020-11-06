@@ -32,6 +32,44 @@ def geoguesser():
     return render_template("geoguesser.html", data=Data.inputdata1(), data1=Data.inputdata2(), data2=Data.picran())
 
 
+#===================================================================================
+
+@app.route("/africa")
+@app.route("/")
+def africa():
+    return render_template("history-africa.html")
+
+@app.route("/america")
+@app.route("/")
+def america():
+    return render_template("history-america.html")
+
+@app.route("/brazil")
+@app.route("/")
+def brazil():
+    return render_template("history-brazil.html")
+
+@app.route("/denmark")
+@app.route("/")
+def denmark():
+    return render_template("history-denmark.html")
+
+@app.route("/greece")
+@app.route("/")
+def greece():
+    return render_template("history-greece.html")
+
+@app.route("/iceland")
+@app.route("/")
+def iceland():
+    return render_template("history-iceland.html")
+
+@app.route("/india")
+@app.route("/")
+def india():
+    return render_template("history-india.html")
+
+#===================================================================================
 
 
 if __name__ == "__main__":
