@@ -15,7 +15,7 @@ def home():
 @app.route("/covid")
 @app.route("/")
 def covid():
-    return render_template("gg-covid.html")
+    return render_template("gg-covid.html", data=scraping.brazildata(), data1=scraping.worldtotal())
 
 @app.route("/p5")
 @app.route("/")
