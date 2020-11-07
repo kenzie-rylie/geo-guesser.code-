@@ -1,5 +1,5 @@
 from flask import Flask, redirect, url_for, render_template
-import Data
+import Data, scraping
 app = Flask(__name__)
 
 @app.route("/landing")
