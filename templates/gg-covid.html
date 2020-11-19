@@ -1,5 +1,30 @@
 {% set worldtotal = data1["worldtotal"] %}
+{% set worlddeaths = data1["worlddeaths"] %}
+{% set worldrecovered = data1["worldrecovered"] %}
+
 {% set braziltotal = data["brazildata"] %}
+{% set brazildeaths = data["brazildeaths"] %}
+{% set brazilrecovered = data["brazilrecovered"] %}
+
+{% set icelandtotal = data["icelandtotal"] %}
+{% set icelanddeaths = data["icelanddeaths"] %}
+{% set icelandrecovered = data["icelandrecovered"] %}
+
+{% set japantotal = data["japantotal"] %}
+{% set japandeaths = data["japandeaths"] %}
+{% set japanrecovered = data["japanrecovered"] %}
+
+{% set denmarktotal = data["denmarktotal"] %}
+{% set denmarkdeaths = data["denmarkdeaths"] %}
+{% set denmarkrecovered = data["denmarkrecovered"] %}
+
+{% set nigertotal = data["nigertotal"] %}
+{% set nigerdeaths = data["nigerdeaths"] %}
+{% set nigerrecovered = data["nigerrecovered"] %}
+
+{% set indiatotal = data["indiatotal"] %}
+{% set indiadeaths = data["indiadeaths"] %}
+{% set indiarecovered = data["indiarecovered"] %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -23,9 +48,13 @@
 </body>
 
 <body>
-Current covid cases: {{worldtotal}}
-
+<p style = "font-family: 'Work Sans', sans-serif;font-size:30px">
+    Total covid cases: <FONT COLOR="#848484">{{worldtotal}}</FONT> <br>
+    Total deaths: <FONT COLOR="#B40431">{{worlddeaths}}</FONT><br>
+    Total recovered: <FONT COLOR="#088A29">{{worldrecovered}}</FONT>
+</p>
 </body>
+
 <!-- I experimented with image mapping here. This way i can make a clickable map which shows covid cases in specific regions -->
 <img src="/static/mappoints2.PNG" alt="map" usemap="#map" width="1463" height="598">
 <map name="map">
@@ -39,41 +68,44 @@ Current covid cases: {{worldtotal}}
     </map>
 
 <body>
-<p>Click the red dots to learn about the current amount of COVID-19 cases in the area.</p>
-
-<div id="covidInfo">Information will show up here.</div>
+<p style = "font-family: 'Work Sans', sans-serif;font-size:20px">
+    Click the red dots to learn about the current amount of COVID-19 cases in the area.
+</p>
+<p style = "font-family: 'Work Sans', sans-serif;font-size:30px">
+    <div id="covidInfo">Information will show up here.</div>
+</p>
 </body>
 
 <!-- Here is where the covid information will be shown. I need to extract stuff from csv files  -->
 <script>
 function functBrazil() {
   var x = document.getElementById("covidInfo");
-  x.innerHTML = "{{braziltotal}}"
+  x.innerHTML = "<strong>Brazil</strong> Total cases: {{braziltotal}} Total deaths: {{brazildeaths}} Total recovered: {{brazilrecovered}}"
 }
 
 function functIceland(){
    var x = document.getElementById("covidInfo");
-   x.innerHTML = "Iceland"
+   x.innerHTML = "<strong>Iceland</strong> Total cases: {{icelandtotal}} Total deaths: {{icelanddeaths}} Total recovered: {{icelandrecovered}}"
 }
 
 function functJapan(){
    var x = document.getElementById("covidInfo");
-   x.innerHTML = "Japan"
+   x.innerHTML = "<strong>Japan</strong> Total cases: {{japantotal}} Total deaths: {{japandeaths}} Total recovered: {{japanrecovered}}"
 }
 
 function functDenmark(){
    var x = document.getElementById("covidInfo");
-   x.innerHTML = "Denmark"
+   x.innerHTML = "<strong>Denmark</strong> Total cases: {{denmarktotal}} Total deaths: {{denmarkdeaths}} Total recovered: {{denmarkrecovered}}"
 }
 
 function functNiger(){
    var x = document.getElementById("covidInfo");
-   x.innerHTML = "Niger"
+   x.innerHTML = "<strong>Niger</strong> Total cases: {{nigertotal}} Total deaths: {{nigerdeaths}} Total recovered: {{nigerrecovered}}"
 }
 
 function functIndia(){
    var x = document.getElementById("covidInfo");
-   x.innerHTML = "India"
+   x.innerHTML = "<strong>India</strong> Total cases: {{indiatotal}} Total deaths: {{indiadeaths}} Total recovered: {{indiarecovered}}"
 }
 
 
