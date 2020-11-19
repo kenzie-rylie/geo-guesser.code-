@@ -44,9 +44,9 @@ Proof of learning: geo-guesser.code- / templates / gg-history.html, README.md, &
 
 ### Sam
 
-Add additional formatting to website and learn css. 
+Format and style all of the history pages. Make small revisions where needed.
 
-Proof of learning: All files except gg-covid.html
+Proof of learning: style.css, gg-history.html, history-africa.html, history-america.html, history-brazil.html, history-denmark.html, history-greece.html, history-iceland.html, history-india.html
 
 ### Kira
 
@@ -88,7 +88,7 @@ templates / gg-p5.html - Nav bar for each tab
 
 templates / base.html - Imported to set equal to jinja variables
 
-Greece.html - Imported code to make the Greece part of the history tab
+templates / history-[country].html - 7 different information pages about different countries
 
 ### CSS Code Files 
 
