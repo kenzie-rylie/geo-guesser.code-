@@ -77,18 +77,35 @@ class Data:
 data = Data(API_KEY, PROJECT_TOKEN)
 
 def worldtotal():
-    worlddictionary = {"worldtotal": data.get_total_cases()}
+    worlddictionary = {"worldtotal": data.get_total_cases(),
+                       "worlddeaths": data.get_total_deaths(),
+                       "worldrecovered":data.get_total_recovered()}
     return worlddictionary
 
 
-def brazildata():
-    dictionary1={"brazildata": data.get_country_data("brazil")}
+def countrydata():
+    dictionary1={"brazildata": data.get_country_data("brazil")['total_cases'],
+                 "brazildeaths": data.get_country_data("brazil")['total_deaths'],
+                 "brazilrecovered": data.get_country_data("brazil")['total_recovered'],
+
+                 "icelandtotal": data.get_country_data("iceland")['total_cases'],
+                 "icelanddeaths": data.get_country_data("iceland")['total_deaths'],
+                 "icelandrecovered": data.get_country_data("iceland")['total_recovered'],
+
+                 "japantotal": data.get_country_data("japan")['total_cases'],
+                 "japandeaths": data.get_country_data("japan")['total_deaths'],
+                 "japanrecovered": data.get_country_data("japan")['total_recovered'],
+
+                 "denmarktotal": data.get_country_data("denmark")['total_cases'],
+                 "denmarkdeaths": data.get_country_data("denmark")['total_deaths'],
+                 "denmarkrecovered": data.get_country_data("denmark")['total_recovered'],
+
+                 "nigertotal": data.get_country_data("niger")['total_cases'],
+                 "nigerdeaths": data.get_country_data("niger")['total_deaths'],
+                 "nigerrecovered": data.get_country_data("niger")['total_recovered'],
+
+                 "indiatotal": data.get_country_data("india")['total_cases'],
+                 "indiadeaths": data.get_country_data("india")['total_deaths'],
+                 "indiarecovered": data.get_country_data("india")['total_recovered'],}
     return dictionary1
 
-
-#    braziltotal={"Total Cases:": data.get_country_data("brazil")['total_cases']}
-#    brazildeaths = {"Total Deaths:": data.get_country_data("brazil")['total_deaths']}
-#    return braziltotal, brazildeaths
-    #['total_cases']
-
-print(data.get_total_cases())
