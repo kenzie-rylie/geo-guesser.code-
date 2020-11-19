@@ -139,3 +139,101 @@ div.hlinks {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+ }
+
+.history-box {
+    background-color: lightgray;
+    border-radius: 50px;
+    padding: 30px;
+    width: 1700px;
+    border-radius: 50px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-52.5%, -50%);
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 0.8;
+}
+
+.history-header {
+    background-color: lightgray;
+    text-align: center;
+    font-family: 'Major Mono Display',Regular;
+    width: 400px;
+    border-radius: 20px;
+    position: absolute;
+    left: 40%;
+    top: 8%;
+    opacity: 0.8
+}
+
+.bg-africa {
+    background-image: url('https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/publications/feed/feednavigator.com/article/2020/07/16/african-development-bank-led-project-boosts-grain-production-in-niger/11587707-2-eng-GB/African-Development-Bank-led-project-boosts-grain-production-in-Niger.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+ }
+
+.bg-america {
+    background-image: url('https://wallup.net/wp-content/uploads/2015/12/269399-nature-landscape-trees-mountain-clouds-sky-valley-cliff-USA-Wyoming-national_park-forest-Yosemite_National_Park.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+ }
+
+.bg-brazil {
+    background-image: url('https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2019/08/e13-1.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+ }
+
+.bg-denmark {
+    background-image: url('https://wallpaperaccess.com/full/1495665.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+ }
+
+.bg-greece {
+    background-image: url('https://www.athensinsider.com/wp-content/uploads/2018/05/Zakynthos-900x563.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+ }
+
+.bg-iceland {
+    background-image: url('https://blog.topazlabs.com/wp-content/uploads/2015/01/DSC2159-Edit1.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+ }
+
+.bg-india {
+    background-image: url('https://img.traveltriangle.com/blog/wp-content/uploads/2017/03/Cover27.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+ }
