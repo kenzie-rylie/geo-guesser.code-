@@ -31,7 +31,39 @@ def history():
 def geoguesser():
     return render_template("geoguesser.html", data=Data.inputdata1(), data1=Data.inputdata2(), data2=Data.picran())
 
-
+@app.route('/1', methods=["GET", "POST"])
+def continentcheck1():
+    if request.method == "POST":
+        form = request.form
+        Con1 = form["Continent1"]
+        if Con1 == "Asia" or Con1 == "asia":
+            var1 = 'Continent Correct!'
+            return render_template("geoguesser.html", Continent=var1,data=Data.inputdata1(),data1=Data.inputdata2(), data2=Data.picran())
+        else:
+            var1 = 'Continent Incorrect!'
+            return render_template("geoguesser.html", Continent=var1,data=Data.inputdata1(),data1=Data.inputdata2(), data2=Data.picran())
+@app.route('/c1', methods=["GET", "POST"])
+def countrycheck1():
+    if request.method == "POST":
+        form = request.form
+        Coun1 = form["Country1"]
+        if Coun1 == "India" or Coun1 == "india":
+            var2 = 'Country Correct!'
+            return render_template("geoguesser.html", Country=var2,data=Data.inputdata1(),data1=Data.inputdata2(), data2=Data.picran())
+        else:
+            var2 = 'Country Incorrect!'
+            return render_template("geoguesser.html", Country=var2,data=Data.inputdata1(),data1=Data.inputdata2(), data2=Data.picran())
+@app.route('/C1', methods=['GET', 'POST'])
+def citycheck1():
+    if request.method == "POST":
+        form = request.form
+        City = form['City1']
+        if City == "Agra" or City == "agra":
+            var3 = 'City Correct!'
+            return render_template("geoguesser.html", City=var3,data=Data.inputdata1(),data1=Data.inputdata2(), data2=Data.picran())
+        else:
+            var3 = 'City Incorrect!'
+            return render_template("geoguesser.html", City=var3,data=Data.inputdata1(),data1=Data.inputdata2(), data2=Data.picran())
 #===================================================================================
 
 @app.route("/africa")
