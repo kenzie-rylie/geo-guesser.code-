@@ -13,7 +13,7 @@ def inputdata2(): #Second test to see if multiple datas woild would work
     return dictionary1
 
 def picran(): # /static/ + random number + .jpg so it would call a random jpg file because I named them all number.jpg and thet are in the static folder
-    picture = int(randrange(6))
+    picture = int(1)
     picture2 = "/static/" + str(picture) + ".jpg"
     if picture == 1:
         repel1 = "https://repl.it/@jhunt11111/picture1website1?lite=true"
@@ -29,5 +29,5 @@ def picran(): # /static/ + random number + .jpg so it would call a random jpg fi
         repel1 = "https://repl.it/@jhunt11111/picture4website1?lite=true"
     else:
         repel1 = str(picture)
-    dictionary2 = {"picture": picture2, "repel1": repel1}
+    dictionary2 = {"picture": picture2, "repel1": repel1, "numberR": picture}
     return dictionary2
