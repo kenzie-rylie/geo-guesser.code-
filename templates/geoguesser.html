@@ -5,7 +5,7 @@
 {% set testvar1 = data1["test2"] %}
 {% set testvar2 = data2["picture"] %}
 {% set repel1 = data2["repel1"] %}
-
+{% set NumberR = data2["numberR"] %}
 <html lang="en">
 
 
@@ -19,7 +19,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
     <body>
-
     <div class="topnav">
         <b><a href="home">home</a>
             <a class="active" href="geoguesser">Geoguesser</a>
@@ -40,11 +39,28 @@
     {% if repel1 == "1" %}
     number if was 1
     {% endif %}
-    <div>
-    <iframe src={{repel1}} height="300" width="300">  </iframe>
-    </div>
 
 
+    <form method="post">
+        <p>Continent</p>
+        <input name="Continent1">
+        <input type="submit" formaction="/{{NumberR}}">
+    </form>
+<p>{{Continent}}</p>
+
+    <form method="post">
+        <p>Country</p>
+        <input name="Country1">
+        <input type="submit" formaction="/c{{NumberR}}">
+    </form>
+    <p>{{Country}}</p>
+
+    <form method="post">
+        <p>City</p>
+        <input name="City1">
+        <input type="submit" formaction="/C{{NumberR}}">
+    </form>
+    <p>{{City}}</p>
     <!--How I get the random image each time -->
     <img src={{testvar2}} height="500" width="1000" alt="forest picture">
 
