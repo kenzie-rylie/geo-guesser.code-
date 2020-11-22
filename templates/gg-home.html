@@ -1,24 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-	<link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/static/style.css/">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>P5 Super-Cool</title>
-</head>
-<body style="font-family:'Major Mono Display',Regular">
-<div class="topnav" >
-    <b><a class="active" href="home">home</a>
-        <a   href="geoguesser">geo guessr</a>
-    <a href="history">history</a>
-    <a href="covid">covid cases</a>
-    <a  href="p5">p5 super-cool</a></b>
-</div>
+{% extends 'nav-bar.html' %}
+{% block home %}
 
-<video class="video-bg" loop muted autoplay >
-    <source  src="/static/Globe.mp4" type="video/mp4" >
-</video>
   <b><a style="text-decoration: none" href="landing"><p class="navheader">home</p></b></a>
 </body>
+{% endblock %}
+
