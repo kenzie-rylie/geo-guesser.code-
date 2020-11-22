@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <!--Setting jinja variables -->
 <!-- -->
+{% extends 'nav-bar.html' %}
+{% block geoguesser %}
 {% set testvar = data["test1"] %}
 {% set testvar1 = data1["test2"] %}
 {% set testvar2 = data2["picture"] %}
@@ -8,25 +10,6 @@
 {% set NumberR = data2["numberR"] %}
 <html lang="en">
 
-
-
-
-<head>
-    <meta charset="UTF-8">
-    <title>Geoguesser</title>
-    <link rel="stylesheet" href="/static/style.css/">
-    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-    <body>
-    <div class="topnav">
-        <b><a href="home">home</a>
-            <a class="active" href="geoguesser">Geoguesser</a>
-            <a href="history">history</a>
-            <a href="covid">covid cases</a>
-            <a href="p5">p5 super-cool</a></b>
-       </b>
-    </div>
     <h1>Refresh page for new image</h1>
     {{testvar}} <!-- Testing if varibles work-->
     {{testvar1}}<!-- Testing if varibles work-->
@@ -67,3 +50,5 @@
 
     </body>
 </html>
+{% endblock %}
+
