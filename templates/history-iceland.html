@@ -1,23 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="/static/style.css/">
-    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
-
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>P5 Super-Cool</title>
-</head>
-<body>
-<div class="topnav">
-    <b><a href="home">home</a>
-        <a href="geoguesser">geo guessr</a>
-        <a  href="history">history</a>
-        <a href="covid">covid cases</a>
-        <a href="p5">p5 super-cool</a></b>
-</div>
+{% extends 'nav-bar.html' %}
+{% block iceland %}
 <b><a style="text-decoration: none" href="landing"><p class="navheader">iceland</p></a></b>
 
 <div class="bg-iceland"></div>
@@ -41,3 +23,4 @@
     <p>Iceland was the last place on earth to be settled by humans. Many Icelanders believe in elves and trolls. You can swim outdoors in hot springs all year round. Iceland has the longest workweeks in Europe. Iceland is one of the most eco-friendly countries in the world. The national colours of Iceland are red, white and blue. The Icelandic horse is the only horse breed in Iceland. The Northern Lights can be seen in Iceland from September to March.</p>
 </div>
 </body>
+{% endblock %}
