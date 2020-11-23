@@ -1,6 +1,23 @@
 
-{% extends 'nav-bar.html' %}
-{% block history %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>P5 Super-Cool</title>
+</head>
+<body style="font-family:'Major Mono Display',Regular">
+
+<div class="topnav" style="text-decoration: none">
+    <b><a style="text-decoration: none" href="home">home</a>
+        <a href="geoguesser">geo guessr</a>
+    <a style="text-decoration: none" class="active" href="history">history</a>
+    <a style="text-decoration: none" href="covid">covid cases</a>
+    <a style="text-decoration: none" href="p5">p5 super-cool</a></b>
+</div>
   <b><a style="text-decoration: none" href="landing"><p class="navheader">history</p></a></b>
 <div class="bg-image-h"></div>
 
@@ -15,4 +32,3 @@
     <br><a style="text-decoration: none; cursor: pointer;" href="india">india</a>
 </div></center>
 </body>
-{% endblock %}
