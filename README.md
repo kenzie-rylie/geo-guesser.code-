@@ -68,6 +68,7 @@ Format and style all of the history pages. Make small revisions where needed.
 Proof of learning: style.css, gg-history.html, history-africa.html, history-america.html, history-brazil.html, history-denmark.html, history-greece.html, history-iceland.html, history-india.html
 
 HTML: https://github.com/kenzie-rylie/geo-guesser.code-/blob/c2e7e47ce29ff0c89c1bb308d09671668ea2d225/templates/gg-history.html#L4-L16
+
       (x7 for each history page)-> https://github.com/kenzie-rylie/geo-guesser.code-/blob/a689d9a0deda64c10dbfecb178d3f709cb757150/templates/history-america.html#L3-L19
 
 CSS: https://github.com/kenzie-rylie/geo-guesser.code-/blob/a689d9a0deda64c10dbfecb178d3f709cb757150/static/style.css#L114-L239
