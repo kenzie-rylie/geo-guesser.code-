@@ -32,7 +32,7 @@ Proof of learning: Data.py, main.py (route to geoguesser.html and import Data), 
 
 Flask: https://github.com/kenzie-rylie/geo-guesser.code-/blob/857fbf5fea3ae300911ec6a18cafc29c8cbd70fb/main.py#L30-L32
 
-post: https://github.com/kenzie-rylie/geo-guesser.code-/blob/275ffa04c8fee01b733942ba0843f37f3fbfb84d/main.py#L34-66
+post: https://github.com/kenzie-rylie/geo-guesser.code-/blob/275ffa04c8fee01b733942ba0843f37f3fbfb84d/main.py#L34-L66
 
 ### Kenzie
 
