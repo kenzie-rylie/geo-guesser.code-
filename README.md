@@ -30,6 +30,8 @@ Learn to use Flask and Jinja to incorporate python into HTML. Also learned to us
 
 Proof of learning: Data.py, main.py (route to geoguesser.html and import Data), geoguesser.html
 
+post: https://github.com/kenzie-rylie/geo-guesser.code-/blob/275ffa04c8fee01b733942ba0843f37f3fbfb84d/main.py#L34
+
 ### Kenzie
 
 Learn how to incorporate jinja. Finish the front end of the website(html and css). Speak up more and converse more with team. Ask more questions.
