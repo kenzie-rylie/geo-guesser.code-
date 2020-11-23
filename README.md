@@ -46,6 +46,14 @@ Learn how to incorporate jinja. Finish the front end of the website(html and css
 
 Proof of learning: All files except gg-covid.html & Data.py & geoguesser.html
 
+flask: 
+
+html/Jinja:
+
+Python:
+
+Requests:
+
 ### Lucas 
 
 Complete and upload a minimum of one country to the history tab. Speak up and help the team more. Complete the README.md by myself. Stay late and work after hours on our project. 
