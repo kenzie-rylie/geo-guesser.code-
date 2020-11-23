@@ -26,13 +26,19 @@ Click on Greece because it is the corresponding number to the image. Another fun
 
 ### James
 
-Learn to use Flask and Jinja to incorporate python into HTML. Also learned to use post and git.
+Learn to use Flask and Jinja to incorporate python into HTML. Also learned to use post, git, and requests.
 
 Proof of learning: Data.py, main.py (route to geoguesser.html and import Data), geoguesser.html
 
 Flask: https://github.com/kenzie-rylie/geo-guesser.code-/blob/857fbf5fea3ae300911ec6a18cafc29c8cbd70fb/main.py#L30-L32
 
 post: https://github.com/kenzie-rylie/geo-guesser.code-/blob/275ffa04c8fee01b733942ba0843f37f3fbfb84d/main.py#L34-L66
+
+Html/Jinja: https://github.com/kenzie-rylie/geo-guesser.code-/blob/265e4b92495badf2e961e41dfe0b99a9c732efa4/templates/geoguesser.html#L27-L48
+
+Python: https://github.com/kenzie-rylie/geo-guesser.code-/blob/265e4b92495badf2e961e41dfe0b99a9c732efa4/main.py#L34-L66 as well as entire Data.py file
+
+Requests: https://github.com/kenzie-rylie/geo-guesser.code-/blob/265e4b92495badf2e961e41dfe0b99a9c732efa4/main.py#L36-L38
 
 ### Kenzie
 
