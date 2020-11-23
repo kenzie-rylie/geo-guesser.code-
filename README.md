@@ -46,11 +46,12 @@ Learn how to incorporate jinja. Finish the front end of the website(html and css
 
 Proof of learning: All files except gg-covid.html & Data.py & geoguesser.html
 
-flask: 
+flask: https://github.com/kenzie-rylie/geo-guesser.code-/blob/857fbf5fea3ae300911ec6a18cafc29c8cbd70fb/main.py#L30-L32 
 
-html/Jinja:
+html/Jinja: https://github.com/kenzie-rylie/geo-guesser.code-/blob/857fbf5fea3ae300911ec6a18cafc29c8cbd70fb/templates/nav-bar.html
+            https://github.com/kenzie-rylie/geo-guesser.code-/tree/857fbf5fea3ae300911ec6a18cafc29c8cbd70fb/templates 
 
-Python:
+Python: https://github.com/kenzie-rylie/geo-guesser.code-/blob/857fbf5fea3ae300911ec6a18cafc29c8cbd70fb/Data.py
 
 Requests:
 
